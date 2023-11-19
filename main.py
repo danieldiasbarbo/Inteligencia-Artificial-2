@@ -100,4 +100,5 @@ if __name__ == "__main__":
         "Tempo Treino",
         "Tempo Predição",
     ]
+    print(f"Classifcador executado {quantidade_teste} vezes")
     print(tabulate(tabela, headers=headers, tablefmt="grid"))
